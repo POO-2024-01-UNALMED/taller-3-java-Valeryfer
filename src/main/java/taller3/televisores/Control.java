@@ -11,11 +11,11 @@ public class Control {
         TV.turnOff();
     }
     
-    public void canalUp() {
+    public static void canalUp() {
         TV.canalUp();
     }
 
-    public void canalDown() {
+    public static void canalDown() {
         TV.canalDown();
     }
 

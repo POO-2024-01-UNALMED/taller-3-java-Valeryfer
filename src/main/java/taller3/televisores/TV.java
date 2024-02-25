@@ -76,7 +76,7 @@ public class TV {
     }
 
 //Control de canal
-    public static void canalUp () {
+    public void canalUp () {
         if (getEstado() == false) {
             return;
         }
@@ -88,7 +88,7 @@ public class TV {
         }
     }
 
-    public static void canalDown () {
+    public void canalDown () {
         if (getEstado() == false) {
             return;
         }
@@ -101,7 +101,7 @@ public class TV {
     }
 
 //Control de volumen
-    public static void volumenUp () {
+    public void volumenUp () {
         if (getEstado() == false) {
             return;
         }
@@ -112,7 +112,7 @@ public class TV {
             this.volumen++;
         }
     }
-    public static void volumenDown () {
+    public void volumenDown () {
         if (getEstado() == false) {
             return;
         }
