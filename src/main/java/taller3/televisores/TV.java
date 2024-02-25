@@ -89,18 +89,18 @@ public class TV {
 
 //Control del canal
     public void canalUp () {
-        this.setCanal(this.canal + 1)
+        this.setCanal(this.canal + 1);
     }
 
     public void canalDown () {
-        this.setCanal(this.canal - 1)
+        this.setCanal(this.canal - 1);
     }
 
 //Control de volumen
     public void volumenUp () {
-        this.setVolumen(this.volumen + 1)
+        this.setVolumen(this.volumen + 1);
     }
     public void volumenDown () {
-        this.setVolumen(this.volumen - 1)
+        this.setVolumen(this.volumen - 1);
     }
 }
