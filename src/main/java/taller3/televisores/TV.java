@@ -7,7 +7,7 @@ public class TV {
     public boolean estado;
     public int volumen = 1;
     Control control;
-    public static long numTV = 0;
+    public long numTV = 0;
 
     public TV (Marca marca, boolean estado) {
         this.marca = marca;
