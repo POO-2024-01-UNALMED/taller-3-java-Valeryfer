@@ -1,3 +1,5 @@
+package taller3.televisores;
+
 public class TV {
     Marca marca;
     public int canal = 1;
