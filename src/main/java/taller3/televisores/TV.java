@@ -63,11 +63,11 @@ public class TV {
         this.numTV = numTV;
     }
 
-    public boolean turnOn () {
+    public void boolean turnOn () {
         estado = true;
 
     }
-    public boolean turnOff () {
+    public void boolean turnOff () {
         estado = false;
     }
 
