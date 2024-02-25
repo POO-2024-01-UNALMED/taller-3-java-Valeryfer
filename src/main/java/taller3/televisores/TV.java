@@ -92,7 +92,7 @@ public class TV {
         if (getEstado() == false) {
             return;
         }
-        else if (getCanal() == 1) {
+        else if (getCanal() <= 1) {
             return;
         }
         else {
@@ -105,7 +105,7 @@ public class TV {
         if (getEstado() == false) {
             return;
         }
-        else if (getCanal() == 7) {
+        else if (getCanal() >= 7) {
             return;
         }
         else {
@@ -116,7 +116,7 @@ public class TV {
         if (getEstado() == false) {
             return;
         }
-        else if (getCanal() == 0) {
+        else if (getCanal() <= 0) {
             return;
         }
         else {
