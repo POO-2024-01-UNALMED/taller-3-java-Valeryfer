@@ -64,11 +64,11 @@ public class TV {
     }
 
     public boolean turnOn () {
-        this.estado = true;
+        estado = true;
 
     }
     public boolean turnOff () {
-        this.estado = false;
+        estado = false;
     }
 
     public boolean getEstado () {
