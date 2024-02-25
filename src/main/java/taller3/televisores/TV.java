@@ -58,7 +58,7 @@ public class TV {
     }
 
     public void setNumTV (long numTV) {
-        this.numTV = numTV
+        this.numTV = numTV;
     }
 
     public boolean turnOn (boolean estado) {
