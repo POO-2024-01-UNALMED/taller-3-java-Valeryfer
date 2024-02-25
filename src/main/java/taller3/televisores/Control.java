@@ -8,31 +8,31 @@ public class Control {
     }
 
     public void turnOff() {
-        TV.turnOff();
+        TV.turnOff;
     }
     
-    public static void canalUp() {
-        TV.canalUp();
+    public void canalUp() {
+        TV.canalUp;
     }
 
-    public static void canalDown() {
-        TV.canalDown();
+    public void canalDown() {
+        TV.canalDown;
     }
 
     public void volumenUp() {
-        TV.volumenUp();
+        TV.volumenUp;
     }
 
     public void volumenDown() {
-        TV.volumenDown();
+        TV.volumenDown;
     }
 
     public void setCanal(int canal) {
         TV.setCanal(canal);
     }
 
-    public void setVolumen() {
-        TV.setVolumen();
+    public void setVolumen(int vol) {
+        TV.setVolumen(vol);
     }
 
     public void enlazar(TV tv) {
