@@ -63,11 +63,11 @@ public class TV {
         this.numTV = numTV;
     }
 
-    public boolean turnOn (boolean estado) {
+    public boolean turnOn () {
         this.estado = true;
 
     }
-    public boolean turnOff (boolean estado) {
+    public boolean turnOff () {
         this.estado = false;
     }
 
@@ -76,7 +76,7 @@ public class TV {
     }
 
 //Control de canal
-    public void canalUp () {
+    public static void canalUp () {
         if (getEstado() == false) {
             return;
         }
@@ -88,7 +88,7 @@ public class TV {
         }
     }
 
-    public void canalDown () {
+    public static void canalDown () {
         if (getEstado() == false) {
             return;
         }
@@ -101,7 +101,7 @@ public class TV {
     }
 
 //Control de volumen
-    public void volumenUp () {
+    public static void volumenUp () {
         if (getEstado() == false) {
             return;
         }
@@ -112,7 +112,7 @@ public class TV {
             this.volumen++;
         }
     }
-    public void volumenDown () {
+    public static void volumenDown () {
         if (getEstado() == false) {
             return;
         }
