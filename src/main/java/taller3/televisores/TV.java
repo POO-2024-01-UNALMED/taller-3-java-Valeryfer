@@ -7,7 +7,7 @@ public class TV {
     public boolean estado;
     public int volumen = 1;
     Control control;
-    public long numTV = 0;
+    public static long numTV;
 
     public TV (Marca marca, boolean estado) {
         this.marca = marca;
@@ -62,7 +62,7 @@ public class TV {
     public void setNumTV (long numTV) {
         this.numTV = numTV;
     }
-
+//Apagar y encender el tv
     public void turnOn () {
         estado = true;
     }
@@ -75,7 +75,7 @@ public class TV {
         return estado;
     }
 
-//Control de canal
+//Control del canal
     public void canalUp () {
         if (getEstado() == false) {
             return;
