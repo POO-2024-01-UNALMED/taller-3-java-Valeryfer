@@ -37,7 +37,7 @@ public class Control {
 
     public void enlazar(TV tv) {
         tv = tv;
-        tv.Control = this;
+        tv.setControl(this);
     }
 
     public TV getTv() {
